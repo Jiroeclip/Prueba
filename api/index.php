@@ -1,6 +1,6 @@
 <?php
 header("Content-Type: application/json");
-$BDD=new mysqli("localhost","root","","pasajes");
+$BDD=new mysqli("localhost","root","redes2024","pasajes");
 
 $tam=strlen(dirname($_SERVER["SCRIPT_NAME"]));
 if($tam==1){$inc=0;}else{$inc=1;}
